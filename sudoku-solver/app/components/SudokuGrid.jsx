@@ -30,7 +30,7 @@ const SudokuGrid = () => {
     const newGrid = Array(9).fill(null).map(() => Array(9).fill(""));
     setGrid(newGrid);
   }
-
+  
   function SudokuBacktrackSolve(grid, r, c) {
     if (r === 9) return true;
     if (c === 9) return SudokuBacktrackSolve(grid, r + 1, 0);
@@ -73,7 +73,7 @@ const SudokuGrid = () => {
                 type="text"
                 value={cell}
                 onChange={(e) => handleChange(rowIndex, colIndex, e.target.value)}
-                className="w-10 h-10 text-center border border-gray-400 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-10 h-10 text-center border border-gray-400 text-black focus:outline-none"
               />
             ))
           )}
