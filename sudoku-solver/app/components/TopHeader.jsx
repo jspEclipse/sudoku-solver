@@ -1,7 +1,12 @@
 const TopHeader = () => {
     return (
-        <div className="min-h-28 bg-[#4A4947] text-white text-center text-[3rem]">
-            Sudoku
+        <div className="flex flex-col text-white min-h-28 ">
+            <div className="bg-[#4A4947] text-center text-[3rem]">
+                Sudoku
+            </div>
+            <div className="text-center">
+                populate the sudoku grid to and see if it can be solved
+            </div>
         </div>
     );
 }

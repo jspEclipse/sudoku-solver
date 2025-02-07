@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <TopHeader/>
       </div>
-      <div className="flex justify-center bg-[#FAF7F0] pt-4">
+      <div className="flex justify-center bg-[#FAF7F0] pt-8 pb-8">
         <SudokuGrid/>
       </div>
       <div>
