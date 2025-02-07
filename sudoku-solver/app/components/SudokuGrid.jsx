@@ -26,6 +26,11 @@ const SudokuGrid = () => {
     }
   };
 
+  const ClearGrid = () => {
+    const newGrid = Array(9).fill(null).map(() => Array(9).fill(""));
+    setGrid(newGrid);
+  }
+
   function SudokuBacktrackSolve(grid, r, c) {
     if (r === 9) return true;
     if (c === 9) return SudokuBacktrackSolve(grid, r + 1, 0);
@@ -100,6 +105,7 @@ const SudokuGrid = () => {
       </div>
       <div className="flex justify-center">
         <Button className="m-2" onClick={solveSudoku}>Solve</Button>
+        <Button className="m-2" variant="outline" onClick={ClearGrid}>Clear</Button>
       </div>
     </div>
   );
