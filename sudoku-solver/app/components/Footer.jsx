@@ -39,7 +39,7 @@ const Footer = () => {
       {/* IsValid Function */}
       <div className="flex items-start justify-center mb-8 text-white">
         <div className="max-w-2xl w-full mr-4">
-          <CodeBlock language="jsx" highlightLines={[9, 13, 14, 18]} code={IsValidCodeBlock} />
+          <CodeBlock language="jsx" code={IsValidCodeBlock} />
         </div>
         <div className="max-w-2xl w-full ml-4 p-4">
           <div className="text-2xl font-semibold mb-2">IsValid Function</div>
@@ -58,7 +58,7 @@ const Footer = () => {
       {/* SudokuBacktrackSolve Function */}
       <div className="flex items-start justify-center pb-8 text-white">
         <div className="max-w-2xl w-full mr-4">
-          <CodeBlock language="jsx" highlightLines={[9, 13, 14, 18]} code={SudokuBacktrackSolveCodeBlock} />
+          <CodeBlock language="jsx" code={SudokuBacktrackSolveCodeBlock} />
         </div>
         <div className="max-w-2xl w-full ml-4 p-4">
           <div className="text-2xl font-semibold mb-2">SudokuBacktrackSolve Function</div>
