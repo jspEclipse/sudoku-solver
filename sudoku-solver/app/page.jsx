@@ -3,7 +3,7 @@ import SudokuGrid from "./components/SudokuGrid";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex justify-center">
       <SudokuGrid/>
     </div>
   );
