@@ -4,3 +4,6 @@ Simply populate the empty grid and then see if the backtracking algorithm can so
 
 # How it's Made
 This project was built on top of Next.js and tailwindcss and utilizing components from Shadcn and AceternityUI in order to save time.
+
+# Current Problems
+At the current moment this website is not mobile friendly. Which will have to be dealt with soon
