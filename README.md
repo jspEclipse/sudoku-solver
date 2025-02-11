@@ -7,3 +7,4 @@ This project was built on top of Next.js and tailwindcss and utilizing component
 
 # Current Problems
 At the current moment this website is not mobile friendly. Which will have to be dealt with soon
+In order to enhance UX experience I want to be able to traverse the grids using the arrow keys
