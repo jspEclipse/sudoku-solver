@@ -5,7 +5,7 @@ const TopHeader = () => {
                 Sudoku
             </div>
             <div className="text-center">
-                populate the sudoku grid to and see if it can be solved
+                populate the sudoku grid to see if it can be solved
             </div>
         </div>
     );
